@@ -1,0 +1,23 @@
+.page-title {
+  font-weight: bold;
+  font-size: 42px;
+  color: #93B851;
+  text-decoration: none;
+}
+.page-title:hover, .navigation-link:hover {
+  text-decoration: none;
+  color: #93B851;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.navigation-link {
+  font-size: 24px;
+  color: #000000;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 42px;
+  padding-top: 16px;
+}
+.navigation-link.active {
+  color: #93B851;
+}
