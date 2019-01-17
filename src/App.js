@@ -8,7 +8,7 @@ import Home from "./components/Home.jsx";
 import About from "./components/About.jsx"
 import Work from "./components/Work.jsx";
 
-import "./styles/custom.scss";
+import "./styles/Custom.scss";
 library.add(fab, fas);
 
 class App extends Component {
