@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
 
 import Home from "./components/Home.jsx";
 import About from "./components/About.jsx"
-import Work from "./components/Work.jsx"
+import Work from "./components/Work.jsx";
 
 import "./styles/custom.scss";
+library.add(fab, fas);
 
 class App extends Component {
   render() {
