@@ -1,0 +1,41 @@
+.carousel {
+  .slider-wrapper {
+    border-radius: 5px;
+  }
+  .carousel-status {
+    text-shadow: none;
+    color: #0f0f0f;
+  }
+  .slide {
+    .legend:hover {
+      opacity: 0.5;
+    }
+  }
+  .control-dots {
+    .dot {
+      border: 1px solid #0f0f0f;
+      box-shadow: none;
+    }
+  }
+}
+
+.carousel.carousel-slider {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+
+  .control-arrow {
+    background: rgba(0,0,0,0.2);
+  }
+  .control-arrow.control-prev {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .control-arrow.control-next {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+.carousel .thumb.selected, .carousel .thumb:hover {
+  border: 1px solid #0f0f0f;
+}
