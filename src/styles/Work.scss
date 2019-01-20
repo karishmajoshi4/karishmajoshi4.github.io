@@ -67,3 +67,19 @@
     color: #ffffff;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .images-container {
+    .overlay {
+      height: 260px;
+      margin-bottom: 15px;
+    }
+    .overlay:hover .overlay-text {
+      display: none;
+    }
+  }
+}
+
+.act-as-link {
+  cursor: pointer;
+}

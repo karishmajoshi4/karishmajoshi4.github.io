@@ -10,18 +10,25 @@ class Work extends Component {
 
     this.state = {
       carouselOpen: false,
-      currentActiveTab: ""
+      currentActiveTab: "",
+      activeCarouselTab: 0
     }
 
-    this.openCarousel = this.openCarousel.bind(this);
+    this.closeCarousel = this.closeCarousel.bind(this);
+    this.activateCarousel = this.activateCarousel.bind(this);
   }
 
-  openCarousel(type) {
+  closeCarousel() {
+    this.setState({carouselOpen: false});
+  }
+
+  activateCarousel(type) {
     var carouselMetaData = {
       academic: 1,
       professional: 27,
-      sketchlogue: 42
+      sketchlogue: 43
     }
+
     this.setState({carouselOpen: true, currentActiveTab: type, activeCarouselTab: carouselMetaData[type]});
   }
 
@@ -31,7 +38,7 @@ class Work extends Component {
         <Navbar />
 
         <div className={"row images-container " + (this.state.carouselOpen ? "d-none" : "")}>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4" onClick={() => this.openCarousel("academic")}>
+          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" onClick={() => this.activateCarousel("academic")}>
             <div className="overlay with-bg-img academic-img">
               <div className="overlay-title">
                 <span>Academic</span>
@@ -44,7 +51,7 @@ class Work extends Component {
               </div>
             </div>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4" onClick={() => this.openCarousel("professional")}>
+          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" onClick={() => this.activateCarousel("professional")}>
             <div className="overlay with-bg-img professional-img">
               <div className="overlay-title">
                 <span>Professional</span>
@@ -66,7 +73,7 @@ class Work extends Component {
               </div>
             </div>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4" onClick={() => this.openCarousel("sketchlogue")}>
+          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" onClick={() => this.activateCarousel("sketchlogue")}>
             <div className="overlay with-bg-img sketchlogue-img">
               <div className="overlay-title">
                 <span>Sketchlogue</span>
@@ -80,20 +87,21 @@ class Work extends Component {
           </div>
         </div>
 
-        <div className={"row mt-2 carousel-container " + (this.state.carouselOpen ? "" : "d-none")}>
-          <div className="col-md-1"></div>
-          <div className="col-md-10 text-center">
+        <div className={"row carousel-container " + (this.state.carouselOpen ? "" : "d-none")}>
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-2"></div>
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+            <span className="act-as-link" onClick={this.closeCarousel}>close</span>
             <PortfolioCarousel activeCarouselTab={this.state.activeCarouselTab} />
           </div>
-          <div className="col-md-1"></div>
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-2"></div>
         </div>
 
         <div className={"row text-center mt-2 mb-4 " + (this.state.carouselOpen ? "d-block" : "d-none")}>
           <div className="col-md-12">
-            <div className="btn-group" role="group" aria-label="Basic example">
-              <button type="button" className={"btn " + this.state.curr }>Academic</button>
-              <button type="button" className={"btn " + this.state.curr }>Professional</button>
-              <button type="button" className={"btn " + this.state.curr }>Sketchlogue</button>
+            <div className="btn-group" role="group" aria-label="carousel">
+              <button onClick={() => this.activateCarousel("academic")} type="button" className={"btn " + (this.state.currentActiveTab === "academic" ? "active" : "") }>Academic</button>
+              <button onClick={() => this.activateCarousel("professional")} type="button" className={"btn " + (this.state.currentActiveTab === "professional" ? "active" : "") }>Professional</button>
+              <button onClick={() => this.activateCarousel("sketchlogue")} type="button" className={"btn " + (this.state.currentActiveTab === "sketchlogue" ? "active" : "") }>Sketchlogue</button>
             </div>
           </div>
         </div>
