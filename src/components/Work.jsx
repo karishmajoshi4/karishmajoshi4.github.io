@@ -9,8 +9,20 @@ class Work extends Component {
     super(props);
 
     this.state = {
-      carouselOpen: false
+      carouselOpen: false,
+      currentActiveTab: ""
     }
+
+    this.openCarousel = this.openCarousel.bind(this);
+  }
+
+  openCarousel(type) {
+    var carouselMetaData = {
+      academic: 1,
+      professional: 27,
+      sketchlogue: 42
+    }
+    this.setState({carouselOpen: true, currentActiveTab: type, activeCarouselTab: carouselMetaData[type]});
   }
 
   render() {
@@ -18,8 +30,8 @@ class Work extends Component {
       <div>
         <Navbar />
 
-        <div className="row images-container">
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+        <div className={"row images-container " + (this.state.carouselOpen ? "d-none" : "")}>
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4" onClick={() => this.openCarousel("academic")}>
             <div className="overlay with-bg-img academic-img">
               <div className="overlay-title">
                 <span>Academic</span>
@@ -32,7 +44,7 @@ class Work extends Component {
               </div>
             </div>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4" onClick={() => this.openCarousel("professional")}>
             <div className="overlay with-bg-img professional-img">
               <div className="overlay-title">
                 <span>Professional</span>
@@ -54,7 +66,7 @@ class Work extends Component {
               </div>
             </div>
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-4" onClick={() => this.openCarousel("sketchlogue")}>
             <div className="overlay with-bg-img sketchlogue-img">
               <div className="overlay-title">
                 <span>Sketchlogue</span>
@@ -68,18 +80,20 @@ class Work extends Component {
           </div>
         </div>
 
-        <div className={"row mt-2 " + (this.state.carouselOpen ? "d-block" : "d-none")}>
-          <div className="col-md-12">
+        <div className={"row mt-2 carousel-container " + (this.state.carouselOpen ? "" : "d-none")}>
+          <div className="col-md-1"></div>
+          <div className="col-md-10 text-center">
             <PortfolioCarousel activeCarouselTab={this.state.activeCarouselTab} />
           </div>
+          <div className="col-md-1"></div>
         </div>
 
-        <div className={"row mt-2 " + (this.state.carouselOpen ? "d-block" : "d-none")}>
+        <div className={"row text-center mt-2 mb-4 " + (this.state.carouselOpen ? "d-block" : "d-none")}>
           <div className="col-md-12">
             <div className="btn-group" role="group" aria-label="Basic example">
-              <button type="button" className="btn">Academic</button>
-              <button type="button" className="btn">Professional</button>
-              <button type="button" className="btn">Sketchlogue</button>
+              <button type="button" className={"btn " + this.state.curr }>Academic</button>
+              <button type="button" className={"btn " + this.state.curr }>Professional</button>
+              <button type="button" className={"btn " + this.state.curr }>Sketchlogue</button>
             </div>
           </div>
         </div>

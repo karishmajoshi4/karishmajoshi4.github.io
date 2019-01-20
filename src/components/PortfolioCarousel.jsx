@@ -20,7 +20,7 @@ class PortfolioCarousel extends Component {
 
   render() {
     return (
-      <Carousel showIndicators={false} useKeyboardArrows={true}>
+      <Carousel showIndicators={false} showThumbs={false} useKeyboardArrows={true} selectedItem={this.props.activeCarouselTab}>
         {this.createImages()}
       </Carousel>
     );
