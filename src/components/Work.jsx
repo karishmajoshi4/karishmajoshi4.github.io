@@ -92,12 +92,12 @@ class Work extends Component {
         </div>
 
         <div className={"row carousel-container " + (this.state.carouselOpen ? "" : "d-none")}>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-2"></div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3"></div>
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6">
             <span className="act-as-link" onClick={this.closeCarousel}>close</span>
             <PortfolioCarousel activeCarouselTab={this.state.activeCarouselTab} />
           </div>
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-2"></div>
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3"></div>
         </div>
 
         <div className={"row text-center mt-2 mb-4 " + (this.state.carouselOpen ? "d-block" : "d-none")}>

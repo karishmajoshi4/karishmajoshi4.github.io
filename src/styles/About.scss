@@ -1,12 +1,10 @@
 .full-size-avatar {
   position: fixed;
-  bottom: 2.5%;
-  left: 1.6%;
+  bottom: 1.5%;
+  left: 1%;
 
   img {
     height: 750px;
-    border-left: 1px solid #dee2e6;
-    border-bottom: 1px solid #dee2e6;
   }
 }
 .about-me {
@@ -18,14 +16,14 @@
 
 .about-me h1 {
   font-weight: bold;
-  font-size: 64px;
+  font-size: 54px;
 }
 .about-me span {
-  font-size: 24px;
+  font-size: 21px;
 }
 .find-me-on {
   text-align: center;
-  font-size: 28px;
+  font-size: 21px;
 }
 .social-media-icon {
   padding: 0px 16px;

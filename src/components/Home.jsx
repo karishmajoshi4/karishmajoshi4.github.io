@@ -18,7 +18,7 @@ class Home extends Component {
               <span>H</span><span className="small">ello!</span>
             </div>
             <div className="hello-ext-info">
-              <p>I am Karishma Joshi. Landscape Architect and a Design professional.</p>
+              <p>I am Karishma Joshi. I am an Architect and a Design professional.</p>
               <p>I am pursuing a masters in Landscape Architecture from Texas A&M University, College Station, Texas.</p>
             </div>
           </div>
