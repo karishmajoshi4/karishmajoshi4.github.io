@@ -7,6 +7,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import Home from "./components/Home.jsx";
 import About from "./components/About.jsx"
 import Work from "./components/Work.jsx";
+import Sketchpressions from './components/Sketchpressions.jsx';
 
 import "./styles/Custom.scss";
 library.add(fab, fas);
@@ -20,6 +21,7 @@ class App extends Component {
           <Route exact path='/home' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/work' component={Work} />
+          <Route exact path='/sketchpressions' component={Sketchpressions} />
           <Route component={Home} />
         </Switch>
       </div>

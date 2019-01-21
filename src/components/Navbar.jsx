@@ -13,6 +13,7 @@ class Navbar extends Component {
         <div className="col-xs-12 col-sm-12 col-md-12 col-lg-9 navigation">
           <Link to="/about" className="navigation-link">About</Link>
           <Link to="/work" className="navigation-link">Work</Link>
+          <Link to="/sketchpressions" className="navigation-link">Sketchpressions</Link>
           <a href="https://drive.google.com/open?id=1_WRsssugWmUJcBgL199ntCI9yPOg4FLP" target="_blank" className="navigation-link">Resume</a>
           <a href="https://drive.google.com/open?id=0BypWPAmJdsyuMlV3TUpiRFAyaS0ybW1wT1hXOEQ4X3BPNDZ3" target="_blank" className="navigation-link">Architecture Portfolio</a>
         </div>
