@@ -41,8 +41,8 @@ class Work extends Component {
       <div>
         <Navbar />
 
-        <div className={"row images-container " + (this.state.carouselOpen ? "d-none" : "")}>
-          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" onClick={() => this.activateCarousel("academic")}>
+        <div className={"row justify-content-lg-center images-container " + (this.state.carouselOpen ? "d-none" : "")}>
+          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-3" onClick={() => this.activateCarousel("academic")}>
             <div className="overlay with-bg-img academic-img" style={{backgroundImage: "url(" + AcademicBg + ")"}}>
               <div className="overlay-title">
                 <span>Academic</span>
@@ -55,7 +55,7 @@ class Work extends Component {
               </div>
             </div>
           </div>
-          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" onClick={() => this.activateCarousel("professional")}>
+          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-3" onClick={() => this.activateCarousel("professional")}>
             <div className="overlay with-bg-img professional-img" style={{backgroundImage: "url(" + professionalBg + ")"}}>
               <div className="overlay-title">
                 <span>Professional</span>
@@ -77,7 +77,7 @@ class Work extends Component {
               </div>
             </div>
           </div>
-          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" onClick={() => this.activateCarousel("sketchlogue")}>
+          <div className="col-xs-4 col-sm-4 col-md-4 col-lg-3" onClick={() => this.activateCarousel("sketchlogue")}>
             <div className="overlay with-bg-img sketchlogue-img" style={{backgroundImage: "url(" + sketchlogueBg + ")"}}>
               <div className="overlay-title">
                 <span>Sketchlogue</span>

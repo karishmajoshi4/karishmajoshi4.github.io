@@ -1,8 +1,11 @@
 .images-container {
   margin-top: 1%;
-  
+  .col-lg-3 {
+    padding-right: 5px;
+    padding-left: 5px;
+  }
   .overlay {
-    height: 660px;
+    height: 620px;
     border-radius: 5px;
     cursor: pointer;
     border-radius: 1px solid rgba(0, 0, 0, 0.05);
@@ -10,12 +13,12 @@
 
     .overlay-title {
       position: absolute;
-      bottom: 10%;
+      bottom: 4%;
       left: 5%;
       right: 5%;
       border-radius: 5px;
       padding: 15px 0px;
-      font-size: 24px;
+      font-size: 16px;
       background-color: rgba(0, 0, 0, 0.5);
       color: #ffffff;
       text-align: center;
@@ -24,9 +27,18 @@
   .overlay-text {
     display: none;
     color: #ffffff;
-    padding: 10%;
+    padding: 5%;
+
+    h5 {
+      font-size: 16px;
+    }
+    span {
+      font-size: 12px;
+      line-height: 0.4 !important;
+    }
   }
   .overlay:hover .overlay-text {
+    font-size: 16px;
     display: block;
     transition: 0.3s;
   }
