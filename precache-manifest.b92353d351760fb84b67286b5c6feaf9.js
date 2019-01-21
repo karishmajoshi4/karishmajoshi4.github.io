@@ -236,7 +236,7 @@ self.__precacheManifest = [
     "url": "karishmajoshi4.github.io/static/css/1.f6099b4a.chunk.css"
   },
   {
-    "revision": "ad18ad6a834349a7933fb4a6d31c1200",
+    "revision": "45592d7107e1ef22994b2905dc963f9a",
     "url": "karishmajoshi4.github.io/index.html"
   }
 ];
