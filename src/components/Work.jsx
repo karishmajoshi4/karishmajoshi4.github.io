@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import Navbar from './Navbar.jsx';
 import PortfolioCarousel from './PortfolioCarousel.jsx';
 
+import AcademicBg from '../images/backgrounds/academic.jpg';
+import professionalBg from '../images/backgrounds/professional.jpg';
+import sketchlogueBg from '../images/backgrounds/sketchlogue.jpg';
+
 import '../styles/Work.scss';
 
 class Work extends Component {
@@ -39,7 +43,7 @@ class Work extends Component {
 
         <div className={"row images-container " + (this.state.carouselOpen ? "d-none" : "")}>
           <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" onClick={() => this.activateCarousel("academic")}>
-            <div className="overlay with-bg-img academic-img">
+            <div className="overlay with-bg-img academic-img" style={{backgroundImage: "url(" + AcademicBg + ")"}}>
               <div className="overlay-title">
                 <span>Academic</span>
               </div>
@@ -52,7 +56,7 @@ class Work extends Component {
             </div>
           </div>
           <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" onClick={() => this.activateCarousel("professional")}>
-            <div className="overlay with-bg-img professional-img">
+            <div className="overlay with-bg-img professional-img" style={{backgroundImage: "url(" + professionalBg + ")"}}>
               <div className="overlay-title">
                 <span>Professional</span>
               </div>
@@ -74,7 +78,7 @@ class Work extends Component {
             </div>
           </div>
           <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4" onClick={() => this.activateCarousel("sketchlogue")}>
-            <div className="overlay with-bg-img sketchlogue-img">
+            <div className="overlay with-bg-img sketchlogue-img" style={{backgroundImage: "url(" + sketchlogueBg + ")"}}>
               <div className="overlay-title">
                 <span>Sketchlogue</span>
               </div>

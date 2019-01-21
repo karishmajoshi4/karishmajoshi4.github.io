@@ -31,20 +31,11 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .overlay.with-bg-img.academic-img {
-    background-image: url("../images/backgrounds/academic.jpg");
-  }
   .overlay.with-bg-img.academic-img:hover {
     box-shadow: inset 0 0 0 2000px rgba(156, 192, 84, 0.8);
   }
-  .overlay.with-bg-img.professional-img {
-    background-image: url("../images/backgrounds/professional.jpg");
-  }
   .overlay.with-bg-img.professional-img:hover {
     box-shadow: inset 0 0 0 2000px rgba(180, 58, 81, 0.8);
-  }
-  .overlay.with-bg-img.sketchlogue-img {
-    background-image: url("../images/backgrounds/sketchlogue.jpg");
   }
   .overlay.with-bg-img.sketchlogue-img:hover {
     box-shadow: inset 0 0 0 2000px rgba(234, 160, 51, 0.8);
