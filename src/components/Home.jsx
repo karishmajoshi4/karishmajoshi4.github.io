@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar.jsx';
 
 import HomeTreesBg from '../images/backgrounds/home-page-trees-buildings.png';
 
@@ -9,7 +8,6 @@ class Home extends Component {
   render() {
     return (
       <div className="bg-building" style={{backgroundImage: "url(" + HomeTreesBg + ")"}}>
-        <Navbar />
 
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3"></div>

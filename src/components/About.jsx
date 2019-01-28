@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar.jsx';
 import FullAvatar from '../images/backgrounds/full-avatar.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -9,8 +8,6 @@ class About extends Component {
   render() {
     return (
       <div>
-        <Navbar />
-
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-3 h-100">
             <div className="full-size-avatar">

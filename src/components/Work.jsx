@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar.jsx';
 import PortfolioCarousel from './PortfolioCarousel.jsx';
 
 import AcademicBg from '../images/backgrounds/academic.jpg';
@@ -39,8 +38,6 @@ class Work extends Component {
   render() {
     return (
       <div>
-        <Navbar />
-
         <div className={"row justify-content-lg-center images-container " + (this.state.carouselOpen ? "d-none" : "")}>
           <div className="col-xs-4 col-sm-4 col-md-4 col-lg-3" onClick={() => this.activateCarousel("academic")}>
             <div className="overlay with-bg-img academic-img" style={{backgroundImage: "url(" + AcademicBg + ")"}}>
