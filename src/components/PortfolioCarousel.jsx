@@ -29,7 +29,7 @@ class PortfolioCarousel extends Component {
 
 function importAll(r) {
   var arr = [];
-  for(var i = 4; i < 50; i++) {
+  for(var i = 4; i < 49; i++) {
     arr.push("./Slide" + i + ".JPG");
   }
   return arr.map(r);
