@@ -1,23 +1,63 @@
 self.__precacheManifest = [
   {
-    "revision": "f2ff1f1c93e8de82eea6e93e98147b8c",
-    "url": "karishmajoshi4.github.io/static/media/Slide27.f2ff1f1c.JPG"
+    "revision": "fc64e0700f5ffe389ba7beafb3e2cc10",
+    "url": "karishmajoshi4.github.io/static/media/Slide28.fc64e070.JPG"
   },
   {
-    "revision": "ee7080f42fa6857a8f49",
-    "url": "karishmajoshi4.github.io/static/css/main.ede807c7.chunk.css"
+    "revision": "82951862eac2fdc88acd",
+    "url": "karishmajoshi4.github.io/static/css/main.0e88d3d7.chunk.css"
   },
   {
-    "revision": "d3b09aa7a7b94cf389691f763b6c52ca",
-    "url": "karishmajoshi4.github.io/static/media/Slide9.d3b09aa7.JPG"
+    "revision": "10e3e06a5c748386bd74134d3fa6e9e8",
+    "url": "karishmajoshi4.github.io/static/media/timelapse-3.10e3e06a.mp4"
   },
   {
-    "revision": "ebffd805a22c4d3c3f5f",
-    "url": "karishmajoshi4.github.io/static/js/1.ebffd805.chunk.js"
+    "revision": "9c47dd74c7894bc4471c",
+    "url": "karishmajoshi4.github.io/static/js/1.9c47dd74.chunk.js"
   },
   {
-    "revision": "1cedc4736876b2a8ab06",
-    "url": "karishmajoshi4.github.io/static/js/runtime~main.1cedc473.js"
+    "revision": "9b2c778b303d26d71ac600521a4a588d",
+    "url": "karishmajoshi4.github.io/static/media/timelapse-2.9b2c778b.mp4"
+  },
+  {
+    "revision": "564fd44e2fe12ce195f4",
+    "url": "karishmajoshi4.github.io/static/js/2.564fd44e.chunk.js"
+  },
+  {
+    "revision": "d3110209bfae6b9d0f3104a17aacf21c",
+    "url": "karishmajoshi4.github.io/static/media/timelapse-1.d3110209.mp4"
+  },
+  {
+    "revision": "a5f7ed6d79d5251ba6e9",
+    "url": "karishmajoshi4.github.io/static/js/3.a5f7ed6d.chunk.js"
+  },
+  {
+    "revision": "d3ab879abbbca6b75ecae53153616d33",
+    "url": "karishmajoshi4.github.io/static/media/sketchlogue.d3ab879a.jpg"
+  },
+  {
+    "revision": "92f6b7f9339de084840b",
+    "url": "karishmajoshi4.github.io/static/js/4.92f6b7f9.chunk.js"
+  },
+  {
+    "revision": "4f140dc8ebceec548dfad6afbe2c5207",
+    "url": "karishmajoshi4.github.io/static/media/professional.4f140dc8.jpg"
+  },
+  {
+    "revision": "6626c4d0cc69e9f04b99",
+    "url": "karishmajoshi4.github.io/static/js/5.6626c4d0.chunk.js"
+  },
+  {
+    "revision": "e957b1985a16352229e2487d9b45ec37",
+    "url": "karishmajoshi4.github.io/static/media/academic.e957b198.jpg"
+  },
+  {
+    "revision": "59500fdabcc7c0dc4b79",
+    "url": "karishmajoshi4.github.io/static/js/6.59500fda.chunk.js"
+  },
+  {
+    "revision": "eab21b176510b10b16f8",
+    "url": "karishmajoshi4.github.io/static/js/runtime~main.eab21b17.js"
   },
   {
     "revision": "f51fb5799f9fc1ecb5f4a20170dbeeb4",
@@ -26,30 +66,6 @@ self.__precacheManifest = [
   {
     "revision": "3a04a8397b1a230d76efb6e744309f82",
     "url": "karishmajoshi4.github.io/static/media/full-avatar.3a04a839.jpg"
-  },
-  {
-    "revision": "e957b1985a16352229e2487d9b45ec37",
-    "url": "karishmajoshi4.github.io/static/media/academic.e957b198.jpg"
-  },
-  {
-    "revision": "4f140dc8ebceec548dfad6afbe2c5207",
-    "url": "karishmajoshi4.github.io/static/media/professional.4f140dc8.jpg"
-  },
-  {
-    "revision": "d3ab879abbbca6b75ecae53153616d33",
-    "url": "karishmajoshi4.github.io/static/media/sketchlogue.d3ab879a.jpg"
-  },
-  {
-    "revision": "d3110209bfae6b9d0f3104a17aacf21c",
-    "url": "karishmajoshi4.github.io/static/media/timelapse-1.d3110209.mp4"
-  },
-  {
-    "revision": "9b2c778b303d26d71ac600521a4a588d",
-    "url": "karishmajoshi4.github.io/static/media/timelapse-2.9b2c778b.mp4"
-  },
-  {
-    "revision": "10e3e06a5c748386bd74134d3fa6e9e8",
-    "url": "karishmajoshi4.github.io/static/media/timelapse-3.10e3e06a.mp4"
   },
   {
     "revision": "04c1ff3d2b4b8e7dd21408ea18403262",
@@ -120,12 +136,12 @@ self.__precacheManifest = [
     "url": "karishmajoshi4.github.io/static/media/Slide26.ca8480cb.JPG"
   },
   {
-    "revision": "ee7080f42fa6857a8f49",
-    "url": "karishmajoshi4.github.io/static/js/main.ee7080f4.chunk.js"
+    "revision": "f2ff1f1c93e8de82eea6e93e98147b8c",
+    "url": "karishmajoshi4.github.io/static/media/Slide27.f2ff1f1c.JPG"
   },
   {
-    "revision": "fc64e0700f5ffe389ba7beafb3e2cc10",
-    "url": "karishmajoshi4.github.io/static/media/Slide28.fc64e070.JPG"
+    "revision": "82951862eac2fdc88acd",
+    "url": "karishmajoshi4.github.io/static/js/main.82951862.chunk.js"
   },
   {
     "revision": "589b3cf3ba263de2db69564790bbbeb1",
@@ -232,11 +248,35 @@ self.__precacheManifest = [
     "url": "karishmajoshi4.github.io/static/media/Slide8.6f999431.JPG"
   },
   {
-    "revision": "ebffd805a22c4d3c3f5f",
-    "url": "karishmajoshi4.github.io/static/css/1.f6099b4a.chunk.css"
+    "revision": "d3b09aa7a7b94cf389691f763b6c52ca",
+    "url": "karishmajoshi4.github.io/static/media/Slide9.d3b09aa7.JPG"
   },
   {
-    "revision": "45592d7107e1ef22994b2905dc963f9a",
+    "revision": "59500fdabcc7c0dc4b79",
+    "url": "karishmajoshi4.github.io/static/css/6.b43ca507.chunk.css"
+  },
+  {
+    "revision": "6626c4d0cc69e9f04b99",
+    "url": "karishmajoshi4.github.io/static/css/5.7c86606e.chunk.css"
+  },
+  {
+    "revision": "92f6b7f9339de084840b",
+    "url": "karishmajoshi4.github.io/static/css/4.626b34c2.chunk.css"
+  },
+  {
+    "revision": "a5f7ed6d79d5251ba6e9",
+    "url": "karishmajoshi4.github.io/static/css/3.c90ae662.chunk.css"
+  },
+  {
+    "revision": "564fd44e2fe12ce195f4",
+    "url": "karishmajoshi4.github.io/static/css/2.1f27e631.chunk.css"
+  },
+  {
+    "revision": "9c47dd74c7894bc4471c",
+    "url": "karishmajoshi4.github.io/static/css/1.703f32b4.chunk.css"
+  },
+  {
+    "revision": "ad7f336e8aff987945342c0600db4f02",
     "url": "karishmajoshi4.github.io/index.html"
   }
 ];
