@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "karishmajoshi4.github.io/static/media/timelapse-3.10e3e06a.mp4"
   },
   {
-    "revision": "d2b5f79f40e8cd9ad44a",
-    "url": "karishmajoshi4.github.io/static/js/1.d2b5f79f.chunk.js"
+    "revision": "83bb432825f42a1c675f",
+    "url": "karishmajoshi4.github.io/static/js/1.83bb4328.chunk.js"
   },
   {
     "revision": "9b2c778b303d26d71ac600521a4a588d",
@@ -56,8 +56,8 @@ self.__precacheManifest = [
     "url": "karishmajoshi4.github.io/static/js/6.59500fda.chunk.js"
   },
   {
-    "revision": "c330d7f51a6d06c8ffe4",
-    "url": "karishmajoshi4.github.io/static/js/runtime~main.c330d7f5.js"
+    "revision": "9617e6e1e2d95ffc0aa0",
+    "url": "karishmajoshi4.github.io/static/js/runtime~main.9617e6e1.js"
   },
   {
     "revision": "f51fb5799f9fc1ecb5f4a20170dbeeb4",
@@ -268,11 +268,11 @@ self.__precacheManifest = [
     "url": "karishmajoshi4.github.io/static/css/2.1f27e631.chunk.css"
   },
   {
-    "revision": "d2b5f79f40e8cd9ad44a",
-    "url": "karishmajoshi4.github.io/static/css/1.703f32b4.chunk.css"
+    "revision": "83bb432825f42a1c675f",
+    "url": "karishmajoshi4.github.io/static/css/1.f1d82dc6.chunk.css"
   },
   {
-    "revision": "7863ac030355d800d78d27c4582b325e",
+    "revision": "583f63f4e5c21d30380df36e220c6c29",
     "url": "karishmajoshi4.github.io/index.html"
   }
 ];
