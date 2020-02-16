@@ -21,18 +21,20 @@ library.add(fab, fas);
 class App extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div>
         <Navbar />
 
-        <Switch>
-          <Route exact path={'/'} component={LoadableHome} />
-          <Route path={'/home'} component={LoadableHome} />
-          <Route path={'/about'} component={LoadableAbout} />
-          <Route path={'/work'} component={LoadableWork} />
-          <Route path={'/sketchpressions'} component={LoadableSketchpressions} />
+        <div className="container-fluid">
+          <Switch>
+            <Route exact path={'/'} component={LoadableHome} />
+            <Route path={'/home'} component={LoadableHome} />
+            <Route path={'/about'} component={LoadableAbout} />
+            <Route path={'/work'} component={LoadableWork} />
+            <Route path={'/sketchpressions'} component={LoadableSketchpressions} />
 
-          <Route component={LoadableHome} />
-        </Switch>
+            <Route component={LoadableHome} />
+          </Switch>
+        </div>
       </div>
     );
   }

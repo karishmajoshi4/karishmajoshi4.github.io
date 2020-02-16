@@ -1,6 +1,21 @@
 html, body {
   font-family: 'Nunito', sans-serif !important;
   letter-spacing: 0.08rem;
-  line-height: 1.4;
+  line-height: 1.8 !important;
   font-size: 12px;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.container-fluid {
+  margin-top: 150px;
+  padding: 0px !important;
+}
+
+.h1 {
+  font-size: 52px !important;
+  font-weight: bold !important;
+}
+.text-success {
+  color: #93B851 !important;
 }
