@@ -1,13 +1,12 @@
-.bg-abstract {
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  top: 32%;
-  opacity: 0.9;
+.bg-building {
+  height: 90vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-@media only screen and (max-width: 600px) {
-  .bg-abstract {
-    background-image: none;
+@media (max-width: 991.98px) {
+  .bg-building {
+    background-image: none !important;
   }
 }

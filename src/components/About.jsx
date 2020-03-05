@@ -16,12 +16,12 @@ class About extends Component {
           </div>
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-9 h-100">
             <div className="about-me">
-              <h1>Hi there!</h1>
+              <h1 className="text-green">Hi there!</h1>
               <span>
-                I am an Architect and a graduate student of Landscape Architecture from the Dallas-Fortworth area, Texas with a passion for design, graphics, sketching, doodling, travelling and delicious food.
+                I am a Design Enthusiast, an Architecture Professional and a Landscape Designer with a passion for design, graphics, sketching, doodling, photography and illustration.
                 <br />
                 <br />
-                As an architect, I believe myself to be an artist as well. I think the artist's sensitivity towards nature and natural elements reflects into the landscapes designed. I am here to contribute my bit to make the world better, so let's work together.
+                As an architect, I believe myself to be an artist as well. I think the artist's sensitivity towards nature and natural elements reflects into the landscapes designed. I am interested in Urban resiliency and flood mitigation and aim to develop ingenious, creative and functional design solutions to solve these problems. I am here to contribute my bit to make the world better; let's work together.
               </span>
             </div>
 
