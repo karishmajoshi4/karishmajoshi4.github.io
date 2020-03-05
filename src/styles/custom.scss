@@ -1,21 +1,33 @@
-html, body {
+body {
   font-family: 'Nunito', sans-serif !important;
   letter-spacing: 0.08rem;
   line-height: 1.8 !important;
-  font-size: 12px;
   height: 100%;
   overflow-x: hidden;
   overflow-y: scroll;
 }
 .container-fluid {
-  margin-top: 150px;
-  padding: 0px !important;
+  margin-top: 30px;
 }
-
 .h1 {
-  font-size: 52px !important;
+  font-size: 42px !important;
   font-weight: bold !important;
 }
-.text-success {
+.text-green, .text-success {
   color: #93B851 !important;
+}
+
+.fade-appear, .fade-enter {
+  opacity: 0;
+}
+.fade-appear-active, .fade-enter-active {
+  transition: opacity .6s ease-out;
+  opacity: 1;
+}
+.fade-exit {
+  transition: opacity .2s ease-out;
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0;
 }

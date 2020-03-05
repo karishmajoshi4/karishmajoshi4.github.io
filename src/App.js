@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
+import { TransitionGroup, CSSTransition } from 'react-transition-group'
 
 import Navbar from './components/Navbar.jsx';
 import Loadable from 'react-loadable';
@@ -20,22 +21,32 @@ library.add(fab, fas);
 
 class App extends Component {
   render() {
+    const currentKey = window.location.pathname.split('/')[1] || '/';
+    const timeout = { enter: 400, exit: 300 };
+
     return (
       <div>
         <Navbar />
 
-        <div className="container-fluid">
-          <Switch>
-            <Route exact path={'/'} component={LoadableHome} />
-            <Route path={'/home'} component={LoadableHome} />
-            <Route path={'/about'} component={LoadableAbout} />
-            <Route path={'/work'} component={LoadableWork} />
-            <Route path={'/sketchpressions'} component={LoadableSketchpressions} />
+          <Route render={({ location }) => (
+            <TransitionGroup component="main" className="page-main">
+              <CSSTransition key={currentKey} classNames="fade" timeout={timeout} appear>
 
-            <Route component={LoadableHome} />
-          </Switch>
+                <div className="container-fluid">
+                  <Switch location={location}>
+                    <Route exact path={'/'} component={LoadableHome} />
+                    <Route path={'/home'} component={LoadableHome} />
+                    <Route path={'/about'} component={LoadableAbout} />
+                    <Route path={'/work'} component={LoadableWork} />
+                    <Route path={'/sketchpressions'} component={LoadableSketchpressions} />
+
+                    <Route component={LoadableHome} />
+                  </Switch>
+                </div>
+              </CSSTransition>
+            </TransitionGroup>
+          )}/>
         </div>
-      </div>
     );
   }
 }
