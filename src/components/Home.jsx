@@ -9,7 +9,7 @@ class Home extends Component {
     return (
       <div className="bg-building" style={{backgroundImage: "url(" + HomeTreesBg + ")"}}>
         <div className="row text-center mt-5">
-          <div className="offset-lg-2 col-sm-12 col-sm-12 col-md-12 col-lg-8">
+          <div className="offset-lg-3 col-sm-12 col-sm-12 col-md-12 col-lg-6">
             <h1 className="h1 text-green">
               Karishma Joshi
             </h1>
