@@ -10,7 +10,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 
-import "./styles/Custom.scss";
+import "./styles/custom.scss";
 
 const LoadableHome = Loadable({ loader: () => import('./components/Home.jsx'), loading: Loading});
 const LoadableAbout = Loadable({loader: () => import('./components/About.jsx'), loading: Loading});
