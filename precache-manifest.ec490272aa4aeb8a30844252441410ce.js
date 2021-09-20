@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b9c0a4389ce76f9c158b",
+    "revision": "6018c8a2c5b1b99c076b",
     "url": "karishmajoshi4.github.io/static/css/main.0349de05.chunk.css"
   },
   {
-    "revision": "b9c0a4389ce76f9c158b",
-    "url": "karishmajoshi4.github.io/static/js/main.b9c0a438.chunk.js"
+    "revision": "6018c8a2c5b1b99c076b",
+    "url": "karishmajoshi4.github.io/static/js/main.6018c8a2.chunk.js"
   },
   {
     "revision": "df95a7c73fb4e9d77f80",
@@ -276,7 +276,7 @@ self.__precacheManifest = [
     "url": "karishmajoshi4.github.io/static/media/timelapse-3.10e3e06a.mp4"
   },
   {
-    "revision": "c11868a42adb04b16d9ec1528b36b870",
+    "revision": "746d5371d0d409c5f42d46b418618de7",
     "url": "karishmajoshi4.github.io/index.html"
   }
 ];
